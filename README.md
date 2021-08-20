@@ -74,3 +74,5 @@ python3 -m tinytuya wizard
 
 
 Weitere Informationen könnt ihr direkt bei TinyTuya finden: https://pypi.org/project/tinytuya/#description
+
+Besucht uns auch gerne auf Discord (**Smarthome YourSelf**) : https://discord.gg/f7TFNeeK2d
