@@ -59,8 +59,11 @@ python3 -m tinytuya scan
 ````
 3. Richte ein Tuya-Konto ein:
 > Erstelle ein **Tuya Developer**-Konto auf iot.tuya.com
+
 > Klicke auf das Symbol "Cloud" -> Erstellen ein neues Projekt (*Create Cloud Project*) (denken immer an den Autorisierungsschlüssel: *Access ID/Client ID:* und *Access Secret/Client Secret:* für den nächsten Schritt)
+
 > Klicke wieder auf das Symbol "Cloud" -> Projektübersicht -> Verknüpftes Gerät (*Devices*) -> Geräte nach App-Konto verknüpfen (*Link Tuya App Account*)
+
 > Klicke auf „App-Konto hinzufügen“ (*Link Tuya App Account*) und es wird ein QR-Code angezeigt. Scanne  den QR-Code direkt in der Smart Life-App auf dem Telefon. Hierfür einfach unten links auf "Profil" drücken und oben recht das erste Symbol wählen. Wenn Du den QR-Code scannst, werden alle in der  „Smart Life“-App registrierten Geräte mit dem Tuya IoT-Projekt verknüpft.
 4. Run Setup Wizard:
 > Führe auf dem Mac den TinyTuya-Setup-Assistenten aus, um die Local_Keys für alle registrierten Geräte abzurufen:
@@ -68,8 +71,11 @@ python3 -m tinytuya scan
 python3 -m tinytuya wizard
 ````
 > Der Assistent fordert Dich zur Eingabe des API-ID-Schlüssels, des API-Geheimnisses und der API-Region (us, eu, cn oder in) aus deinem oben genannten Tuya IoT-Projekt auf. Es wird auch nach einer Beispiel-Geräte-ID gefragt. Verwenden hier eine aus Schritt 2 (oben) oder finden diese in der Geräteliste deines Tuya IoT-Projekts.
+
 > Der Assistent fragt die Tuya IoT Cloud-Plattform ab und druckt eine JSON-Liste aller deiner registrierten Geräte mit dem "Namen", der "ID" und dem "Schlüssel" der  registrierten Geräte. Die "Schlüssel" in dieser Liste sind die Local_Key der Geräte, die sie für den Zugriff auf dein Gerät verwenden.
+
 > Zusätzlich zur Anzeige der Geräteliste erstellt der Assistent eine lokale Datei devices.json. (Diese findest Du im Finder unter: Benutzer -> Benutzername) TinyTuya verwendet diese Datei, um zusätzliche Details zum Scannen von Ergebnissen von tinytuya.scanDevices() bereitzustellen oder wenn wir `python3 -m tinytuya` ausführen, um unser lokales Netzwerk zu scannen.
+
 > Der Assistent fragt am Schluss, ob wir alle Geräte abfragen möchten. Wenn Sie dies tun, wird der Status aller Geräte in Datensätzen angezeigt und eine Snapshot.json-Datei mit den Ergebnissen erstellt. (Diese liegt ebenfall in unserem Benutzerordner)
 
 
