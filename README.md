@@ -1,3 +1,4 @@
+![Banner3](https://user-images.githubusercontent.com/54147030/130196216-997af0b0-f3ca-48ca-a4a4-ab1b24bd53ec.png)
 # TinyTuya-macOs
 Phyhton-Modul zur Tuya Schnittstelle
 
@@ -57,6 +58,9 @@ Folge den Anweisungen unten, um den Local_Key zu erhalten:
 python3 -m tinytuya scan
 
 ````
+
+<img width="1149" alt="Bildschirmfoto 2021-08-20 um 09 26 12" src="https://user-images.githubusercontent.com/54147030/130196669-7910d6f8-2b3b-41a5-bc46-01eb4845face.png">
+
 3. Richte ein Tuya-Konto ein:
 > Erstelle ein **Tuya Developer** -Konto auf iot.tuya.com
 
@@ -83,3 +87,5 @@ python3 -m tinytuya wizard
 Weitere Informationen könnt ihr direkt bei TinyTuya finden: https://pypi.org/project/tinytuya/#description
 
 Besucht uns auch gerne auf Discord (**Smarthome YourSelf**) : https://discord.gg/f7TFNeeK2d
+
+![Banner3](https://user-images.githubusercontent.com/54147030/130196267-2a6f5e25-abea-4915-a8cf-abc2b65c793d.png)
