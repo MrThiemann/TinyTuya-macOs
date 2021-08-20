@@ -5,7 +5,7 @@ Phyhton-Modul zur Tuya Schnittstelle
 > https://www.python.org/downloads/macos/
 
 * Anschließend wird `pip` benötigt.
-Hier gibt es verschiedene Möglichkeiten, diese zu installieren.
+Hier gibt es verschiedene Möglichkeiten, dieses zu installieren.
 > https://pip.pypa.io/en/latest/installation/
 > 
 
