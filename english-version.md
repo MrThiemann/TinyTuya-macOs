@@ -58,17 +58,24 @@ python3 -m tinytuya scan
 ````
 3. Set up a Tuya account:
 > Create a ** Tuya Developer ** account on iot.tuya.com
+
 > Click on the "Cloud" symbol -> Create a new project (*Create Cloud Project*) (always remember the authorization key: *Access ID / Client ID:* and *Access Secret / Client Secret:* for the next step)
+
 > Click again on the "Cloud" symbol -> Project overview -> Linked device (*Devices*) -> Link devices by app account (*Link Tuya App Account*)
+
 > Click on "Add App Account" (*Link Tuya App Account*) and a QR code will be displayed. Scan the QR code directly in the Smart Life app on the phone. To do this, simply click on "Profile" at the bottom left and select the first symbol at the top right. If you scan the QR code, all devices registered in the “Smart Life” app will be linked to the Tuya IoT project.
 4. Run Setup Wizard:
+
 > Run the TinyTuya setup wizard on the Mac to get the Local_Keys for all registered devices:
 ````
 python3 -m tinytuya wizard
 ````
 > The wizard asks you to enter the API ID key, the API secret and the API region (us, eu, cn or in) from your Tuya IoT project mentioned above. It will also ask for a sample device ID. Use one from step 2 (above) or find it in the device list of your Tuya IoT project.
+
 > The wizard queries the Tuya IoT cloud platform and prints a JSON list of all your registered devices with the "name", the "ID" and the "key" of the registered devices. The "keys" in this list are the Local_Key of the devices that they use to access your device.
+
 > In addition to displaying the device list, the wizard creates a local devices.json file. (You can find this in the Finder under: User -> Username) TinyTuya uses this file to provide additional details for scanning results from tinytuya.scanDevices () or when we run `python3 -m tinytuya` to scan our local network.
+
 > At the end, the wizard asks whether we want to query all devices. When you do this, the status of all devices will be displayed in records and a Snapshot.json file will be created with the results. (This is also in our user folder)
 
 
