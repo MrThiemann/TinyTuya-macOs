@@ -57,7 +57,7 @@ python3 -m tinytuya scan
 
 ````
 3. Set up a Tuya account:
-> Create a ** Tuya Developer ** account on iot.tuya.com
+> Create a **Tuya Developer** account on iot.tuya.com
 
 > Click on the "Cloud" symbol -> Create a new project (*Create Cloud Project*) (always remember the authorization key: *Access ID / Client ID:* and *Access Secret / Client Secret:* for the next step)
 
