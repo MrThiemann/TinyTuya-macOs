@@ -58,13 +58,14 @@ python3 -m tinytuya scan
 
 ````
 3. Richte ein Tuya-Konto ein:
-> Erstelle ein **Tuya Developer**-Konto auf iot.tuya.com
+> Erstelle ein **Tuya Developer** -Konto auf iot.tuya.com
 
-> Klicke auf das Symbol "Cloud" -> Erstellen ein neues Projekt (*Create Cloud Project*) (denken immer an den Autorisierungsschlüssel: *Access ID/Client ID:* und *Access Secret/Client Secret:* für den nächsten Schritt)
+> Klicke auf das Symbol "Cloud" -> Erstellen ein neues Projekt (**Create Cloud Project**) (denken immer an den Autorisierungsschlüssel: **Access ID/Client ID:** und **Access Secret/Client Secret:** für den nächsten Schritt)
 
-> Klicke wieder auf das Symbol "Cloud" -> Projektübersicht -> Verknüpftes Gerät (*Devices*) -> Geräte nach App-Konto verknüpfen (*Link Tuya App Account*)
+> Klicke wieder auf das Symbol "Cloud" -> Projektübersicht -> Verknüpftes Gerät (**Devices**) -> Geräte nach App-Konto verknüpfen (**Link Tuya App Account**)
 
-> Klicke auf „App-Konto hinzufügen“ (*Link Tuya App Account*) und es wird ein QR-Code angezeigt. Scanne  den QR-Code direkt in der Smart Life-App auf dem Telefon. Hierfür einfach unten links auf "Profil" drücken und oben recht das erste Symbol wählen. Wenn Du den QR-Code scannst, werden alle in der  „Smart Life“-App registrierten Geräte mit dem Tuya IoT-Projekt verknüpft.
+> Klicke auf „App-Konto hinzufügen“ (**Link Tuya App Account**) und es wird ein QR-Code angezeigt. Scanne  den QR-Code direkt in der Smart Life-App auf dem Telefon. Hierfür einfach unten links auf "Profil" drücken und oben recht das erste Symbol wählen. Wenn Du den QR-Code scannst, werden alle in der  „Smart Life“-App registrierten Geräte mit dem Tuya IoT-Projekt verknüpft.
+
 4. Run Setup Wizard:
 > Führe auf dem Mac den TinyTuya-Setup-Assistenten aus, um die Local_Keys für alle registrierten Geräte abzurufen:
 ````
